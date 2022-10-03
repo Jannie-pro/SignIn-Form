@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        crossorigin="anonymous" />
+    <title>Sign In</title>
+</head>
+<body>
+    <form id="form">
+        <h1 class="form-header">Sign Up</h1>
+        <div>
+            <label for="firstname">First name</label>
+            <i class="fas fa-user"></i>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter first name">
+    
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+    
+            <div class="error"></div>
+        </div>
+        <!-- Lastname Input -->
+        <div>
+            <label for="lastname">Last name</label>
+            <i class="fas fa-user"></i>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter last name">
+    
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+    
+            <div class="error"></div>
+        </div>
+        <!-- Email Input -->
+        <div>
+            <label for="email">Email</label>
+            <i class="far fa-envelope"></i>
+            <input type="email" id="email" name="email" placeholder="abc@gmail.com">
+    
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+    
+            <div class="error"></div>
+        </div>
+        <!-- Password Input -->
+        <div>
+            <label for="password">Password</label>
+            <i class="fas fa-lock"></i>
+            <input type="password" id="password" name="password" placeholder="Enter password">
+    
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+    
+            <div class="error"></div>
+        </div>
+        <!-- Confirm Password Input -->
+        <div>
+            <label for="password">Confirm password</label>
+            <i class="fas fa-lock"></i>
+            <input type="password" id="password" name="password" placeholder="Confirm password">
+    
+            <i class="fas fa-exclamation-circle failure-icon"></i>
+            <i class="far fa-check-circle success-icon"></i>
+    
+            <div class="error"></div>
+        </div>
+        <!-- Submit Button  -->
+        <div>
+            <button type="submit" id="btn">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
